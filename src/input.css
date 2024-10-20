@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav{
+    background: linear-gradient(to right, #b3ffab, #12fff7);
+}
+.bgimg{
+    background-image: url(/src/img/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    background-color: rgb(5, 5, 143);
+}
+html {
+    scroll-behavior: smooth;
+  }
+.abt{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(207,253,29,0.6643907563025211) 32%, rgba(252,176,69,1) 100%);
+}
